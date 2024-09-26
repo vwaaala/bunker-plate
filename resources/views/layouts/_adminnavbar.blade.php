@@ -1,6 +1,6 @@
 <nav class="navbar navbar-dark bg-dark" aria-label="Dark offcanvas navbar">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Dark offcanvas navbar</a>
+        <a class="navbar-brand" href="#">{{ config('app.name', 'Bunker Plate') }}</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark"
             aria-controls="offcanvasNavbarDark" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -8,7 +8,7 @@
         <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbarDark"
             aria-labelledby="offcanvasNavbarDarkLabel">
             <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">Offcanvas</h5>
+                <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">Menu</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                     aria-label="Close"></button>
             </div>
