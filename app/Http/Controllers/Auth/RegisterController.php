@@ -41,6 +41,17 @@ class RegisterController extends Controller
     }
 
     /**
+     * Show the application registration form.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function showRegistrationForm()
+    {
+        $page_title = 'Register';
+        return view('auth.register', compact('page_title'));
+    }
+
+    /**
      * Get a validator for an incoming registration request.
      *
      * @param  array  $data
