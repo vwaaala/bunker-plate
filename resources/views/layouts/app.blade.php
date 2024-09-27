@@ -58,6 +58,7 @@
 
         <!-- Dynmaic block -->
         @yield('content')
+        @include('layouts._footer')
     </div>
 
     <!-- System JS -->
